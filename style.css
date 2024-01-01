@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+
+.nav{
+    display: flex;
+    position: sticky;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.elements{
+    display: none;
+}
+
+.elements1{
+    display: flex;
+}
+
+.burger{
+    display: none;
+}
+
+
+.list{
+    list-style: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.4rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.anc:hover{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 50px;
+}
+
+.anc{
+    text-decoration: none;
+}
+
+.title{
+    list-style: none;
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.home{
+    background-color: lightcoral;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home2{
+    background-color: lightseagreen;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home3{
+    background-color: violet;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.Content{
+    width: 100%;
+    text-align: justify;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 150px;
+}
+
+.foot{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para{
+    margin-left: 50px;
+}
+
+.brands{
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+.pad{
+    margin-left: 570px;
+}
+
+.brand-container{
+    display: flex;
+}
+
+.img-box{
+    align-items: center;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.heading{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Img{
+    width: 300px;
+    height: 330px;
+    border-radius: 400px;
+    padding-right: 30px;
+}
+
+.Content3{
+    width: 80%;
+    padding-left: 120px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+    background-color: aquamarine;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.Content2{
+    width: 80%;
+    padding-left: 120px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 450px) {
+
+    .elements1{
+        display: none;
+    }
+
+    .title{
+        font-size: 1.3rem;
+    }
+
+    .head{
+        font-size: 3.5rem;
+    }
+
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pad{
+        margin-left: 50px;
+        font-size: smaller;
+        padding-top: 8px;
+    }
+
+    .Content{
+        font-size: 1rem;
+    }
+
+    .para{
+        display: none;
+    }
+
+    .brand-container{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .burger{
+        display:contents;
+        color: white;
+        font-size: 2rem;
+        padding-right: 100px;
+    }
+
+    .fi.fi-sr-apps::before{
+        line-height: 1.7;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .Content2{
+        margin-left: 0px;
+        padding-left: 40px;
+    }
+
+    .Content3{
+        font-size: larger;
+        padding-right: 20px;
+        border-radius: 0px;
+        text-align: justify;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .Img{
+        margin-left: 40px;
+    }
+
+    .con{
+        display: block;
+    }
+}
